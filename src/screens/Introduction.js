@@ -12,7 +12,7 @@ function Base() {
   return (
     <SafeAreaView style={styles.mainContent}>
       <ScrollView>
-        <View>
+        <View style={styles.introduction}>
           <Text style={styles.defaultText}>
             In the name of the Father, and of the Son and of the Holy Spirit
             Amen.

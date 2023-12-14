@@ -24,7 +24,7 @@ function Home({ navigation }) {
     { id: "IX", title: "Nineth Station" },
     { id: "X", title: "Tenth Station" },
     { id: "XI", title: "Eleventh Station" },
-    { id: "XII", title: "Twelveth Station" },
+    { id: "XII", title: "Twelfth Station" },
     { id: "XIII", title: "Thirteenth Station" },
     { id: "XIV", title: "Fourteenth Station" },
     { id: "Co", title: "Conclusion" },

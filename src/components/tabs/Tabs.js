@@ -16,7 +16,7 @@ import SixthStation from "../../screens/SixthStation";
 import TenthStation from "../../screens/TenthStation";
 import ThirdStation from "../../screens/ThirdStation";
 import ThirteenthStation from "../../screens/ThirtheenthStation";
-import TwelvethStation from "../../screens/TwelvethStation";
+import TwelfthStation from "../../screens/TwelfthStation";
 import Home from "../../screens/Home";
 
 const Stack = createNativeStackNavigator();
@@ -38,7 +38,7 @@ function Tabs() {
       <Stack.Screen name="Nineth Station" component={NinethStation} />
       <Stack.Screen name="Tenth Station" component={TenthStation} />
       <Stack.Screen name="Eleventh Station" component={EleventhStation} />
-      <Stack.Screen name="Twelveth Station" component={TwelvethStation} />
+      <Stack.Screen name="Twelfth Station" component={TwelfthStation} />
       <Stack.Screen name="Thirteenth Station" component={ThirteenthStation} />
       <Stack.Screen name="Fourteenth Station" component={FourteenthStation} />
     </Stack.Navigator>

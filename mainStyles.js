@@ -103,6 +103,10 @@ const styles = StyleSheet.create({
   defaultText: {
     fontSize: 16,
   },
+  introduction: {
+    justifyContent: "center",
+    alignItems: "center",
+  },
 });
 
 export default styles;

@@ -8,7 +8,7 @@ import {
 } from "react-native";
 import styles from "../../mainStyles";
 
-function TwelvethStation() {
+function TwelfthStation() {
   return (
     <ScrollView>
       <View style={styles.mainContent}>
@@ -94,4 +94,4 @@ function TwelvethStation() {
   );
 }
 
-export default TwelvethStation;
+export default TwelfthStation;
