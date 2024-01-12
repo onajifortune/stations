@@ -29,7 +29,7 @@ function SixthStation() {
 
         <View style={styles.mainContentView}>
           <View style={styles.mainContentCenterContainer}>
-            <Text style={styles.defaultText}>READING: (ISAIAH 53:1-3)</Text>
+            <Text style={styles.defaultTextHead}>READING: (ISAIAH 53:1-3)</Text>
           </View>
           <Text style={styles.defaultText}>
             Who has believed what we have heard? And to whom has the arm of the
@@ -44,7 +44,7 @@ function SixthStation() {
 
         <View style={styles.mainContentView}>
           <View style={styles.mainContentCenterContainer}>
-            <Text style={styles.defaultText}>CHRIST SPEAKS</Text>
+            <Text style={styles.defaultTextHead}>CHRIST SPEAKS</Text>
           </View>
           <Text style={styles.defaultText}>
             Can you be brave enough to wipe my bloody face? “where is your
@@ -58,7 +58,7 @@ function SixthStation() {
 
         <View style={styles.mainContentView}>
           <View style={styles.mainContentCenterContainer}>
-            <Text style={styles.defaultText}>MAN RESPONDS</Text>
+            <Text style={styles.defaultTextHead}>MAN RESPONDS</Text>
           </View>
           <Text style={styles.defaultText}>
             Lord, this is hard it needs courage and self sacrifice it is an
@@ -75,7 +75,7 @@ function SixthStation() {
 
         <View style={styles.mainContentView}>
           <View style={styles.mainContentCenterContainer}>
-            <Text style={styles.defaultText}>HYMN</Text>
+            <Text style={styles.defaultTextHead}>HYMN</Text>
           </View>
           <View style={styles.mainContentCenterContainer}>
             <Text style={styles.defaultText}>

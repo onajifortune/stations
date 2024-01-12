@@ -29,7 +29,7 @@ function NinethStation() {
 
         <View style={styles.mainContentView}>
           <View style={styles.mainContentCenterContainer}>
-            <Text style={styles.defaultText}>READING: (ISAIAH 53:8-10)</Text>
+            <Text style={styles.defaultTextHead}>READING: (ISAIAH 53:8-10)</Text>
           </View>
           <Text style={styles.defaultText}>
             By oppression and judgement he was taken away; and as for his
@@ -46,7 +46,7 @@ function NinethStation() {
 
         <View style={styles.mainContentView}>
           <View style={styles.mainContentCenterContainer}>
-            <Text style={styles.defaultText}>CHRIST SPEAKS</Text>
+            <Text style={styles.defaultTextHead}>CHRIST SPEAKS</Text>
           </View>
           <Text style={styles.defaultText}>
             I have fallen down again completely drained of strength my body
@@ -58,7 +58,7 @@ function NinethStation() {
 
         <View style={styles.mainContentView}>
           <View style={styles.mainContentCenterContainer}>
-            <Text style={styles.defaultText}>MAN RESPONDS</Text>
+            <Text style={styles.defaultTextHead}>MAN RESPONDS</Text>
           </View>
           <Text style={styles.defaultText}>
             My Lord, after a moment’ rest you took off again and staggered on. I
@@ -78,7 +78,7 @@ function NinethStation() {
 
         <View style={styles.mainContentView}>
           <View style={styles.mainContentCenterContainer}>
-            <Text style={styles.defaultText}>HYMN</Text>
+            <Text style={styles.defaultTextHead}>HYMN</Text>
           </View>
           <View style={styles.mainContentCenterContainer}>
             <Text style={styles.defaultText}>

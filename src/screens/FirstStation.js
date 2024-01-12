@@ -28,7 +28,7 @@ function FirstStation() {
 
         <View style={styles.mainContentView}>
           <View style={styles.mainContentCenterContainer}>
-            <Text style={styles.defaultText}>READING: (JOHN 19:12-16)</Text>
+            <Text style={styles.defaultTextHead}>READING: (JOHN 19:12-16)</Text>
           </View>
           <Text style={styles.defaultText}>
             Pilate sought to release him, but the Jews cried out, “if you
@@ -44,7 +44,7 @@ function FirstStation() {
 
         <View style={styles.mainContentView}>
           <View style={styles.mainContentCenterContainer}>
-            <Text style={styles.defaultText}>CHRIST SPEAKS</Text>
+            <Text style={styles.defaultTextHead}>CHRIST SPEAKS</Text>
           </View>
           <Text style={styles.defaultText}>
             In Pilate’s hands, my friend, I see my father’s will it is true that
@@ -57,7 +57,7 @@ function FirstStation() {
 
         <View style={styles.mainContentView}>
           <View style={styles.mainContentCenterContainer}>
-            <Text style={styles.defaultText}>MAN RESPONDS</Text>
+            <Text style={styles.defaultTextHead}>MAN RESPONDS</Text>
           </View>
           <Text style={styles.defaultText}>
             Lord Jesus, obedience cost you your life for me, it costs an act of
@@ -74,7 +74,7 @@ function FirstStation() {
 
         <View style={styles.mainContentView}>
           <View style={styles.mainContentCenterContainer}>
-            <Text style={styles.defaultText}>HYMN</Text>
+            <Text style={styles.defaultTextHead}>HYMN</Text>
           </View>
           <View style={styles.mainContentCenterContainer}>
             <Text style={styles.defaultText}>

@@ -29,7 +29,7 @@ function TenthStation() {
 
         <View style={styles.mainContentView}>
           <View style={styles.mainContentCenterContainer}>
-            <Text style={styles.defaultText}>READING: (JOHN 19:23-24)</Text>
+            <Text style={styles.defaultTextHead}>READING: (JOHN 19:23-24)</Text>
           </View>
           <Text style={styles.defaultText}>
             When the soldiers had crucified Jesus they took his garments and
@@ -43,7 +43,7 @@ function TenthStation() {
 
         <View style={styles.mainContentView}>
           <View style={styles.mainContentCenterContainer}>
-            <Text style={styles.defaultText}>CHRIST SPEAKS</Text>
+            <Text style={styles.defaultTextHead}>CHRIST SPEAKS</Text>
           </View>
           <Text style={styles.defaultText}>
             Beholds the poorest king that ever lived before the creatures of my
@@ -56,7 +56,7 @@ function TenthStation() {
 
         <View style={styles.mainContentView}>
           <View style={styles.mainContentCenterContainer}>
-            <Text style={styles.defaultText}>MAN RESPONDS</Text>
+            <Text style={styles.defaultTextHead}>MAN RESPONDS</Text>
           </View>
           <Text style={styles.defaultText}>
             Lord, strip me of the craving for prestige position, wealth and
@@ -74,7 +74,7 @@ function TenthStation() {
 
         <View style={styles.mainContentView}>
           <View style={styles.mainContentCenterContainer}>
-            <Text style={styles.defaultText}>HYMN</Text>
+            <Text style={styles.defaultTextHead}>HYMN</Text>
           </View>
           <View style={styles.mainContentCenterContainer}>
             <Text style={styles.defaultText}>

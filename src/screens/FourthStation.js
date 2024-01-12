@@ -29,7 +29,7 @@ function FourthStation() {
 
         <View style={styles.mainContentView}>
           <View style={styles.mainContentCenterContainer}>
-            <Text style={styles.defaultText}>READING: (LUKE 2:34-35)</Text>
+            <Text style={styles.defaultTextHead}>READING: (LUKE 2:34-35)</Text>
           </View>
           <Text style={styles.defaultText}>
             “Behold, this child is set for the fall and rising of many in Israel
@@ -41,7 +41,7 @@ function FourthStation() {
 
         <View style={styles.mainContentView}>
           <View style={styles.mainContentCenterContainer}>
-            <Text style={styles.defaultText}>CHRIST SPEAKS</Text>
+            <Text style={styles.defaultTextHead}>CHRIST SPEAKS</Text>
           </View>
           <Text style={styles.defaultText}>
             My mother sees me whipped. She sees me kicked and driven like a
@@ -52,7 +52,7 @@ function FourthStation() {
 
         <View style={styles.mainContentView}>
           <View style={styles.mainContentCenterContainer}>
-            <Text style={styles.defaultText}>MAN RESPONDS</Text>
+            <Text style={styles.defaultTextHead}>MAN RESPONDS</Text>
           </View>
           <Text style={styles.defaultText}>
             Lord Jesus, it is harder to watch the pains of those we love than to
@@ -72,7 +72,7 @@ function FourthStation() {
 
         <View style={styles.mainContentView}>
           <View style={styles.mainContentCenterContainer}>
-            <Text style={styles.defaultText}>HYMN</Text>
+            <Text style={styles.defaultTextHead}>HYMN</Text>
           </View>
           <View style={styles.mainContentCenterContainer}>
             <Text style={styles.defaultText}>

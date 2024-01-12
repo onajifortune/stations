@@ -29,7 +29,7 @@ function SeventhStation() {
 
         <View style={styles.mainContentView}>
           <View style={styles.mainContentCenterContainer}>
-            <Text style={styles.defaultText}>READING: (ISAIAH 53:4-6)</Text>
+            <Text style={styles.defaultTextHead}>READING: (ISAIAH 53:4-6)</Text>
           </View>
           <Text style={styles.defaultText}>
             Surely he has borne our griefs and carried our sorrows; yet we
@@ -44,7 +44,7 @@ function SeventhStation() {
 
         <View style={styles.mainContentView}>
           <View style={styles.mainContentCenterContainer}>
-            <Text style={styles.defaultText}>CHRIST SPEAKS</Text>
+            <Text style={styles.defaultTextHead}>CHRIST SPEAKS</Text>
           </View>
           <Text style={styles.defaultText}>
             This seventh step, my child, is one that tests your will from this
@@ -55,7 +55,7 @@ function SeventhStation() {
 
         <View style={styles.mainContentView}>
           <View style={styles.mainContentCenterContainer}>
-            <Text style={styles.defaultText}>MAN RESPONDS</Text>
+            <Text style={styles.defaultTextHead}>MAN RESPONDS</Text>
           </View>
           <Text style={styles.defaultText}>
             Difficulties remain difficult, Lord! When failure presses heavily on
@@ -72,7 +72,7 @@ function SeventhStation() {
 
         <View style={styles.mainContentView}>
           <View style={styles.mainContentCenterContainer}>
-            <Text style={styles.defaultText}>HYMN</Text>
+            <Text style={styles.defaultTextHead}>HYMN</Text>
           </View>
           <Text style={styles.defaultText}>For the sins of his own nation</Text>
           <Text style={styles.defaultText}>saw him hang in desolation</Text>

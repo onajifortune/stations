@@ -29,7 +29,7 @@ function FifthStation() {
 
         <View style={styles.mainContentView}>
           <View style={styles.mainContentCenterContainer}>
-            <Text style={styles.defaultText}>READING: (MARK 15:21)</Text>
+            <Text style={styles.defaultTextHead}>READING: (MARK 15:21)</Text>
           </View>
           <Text style={styles.defaultText}>
             And they compelled a passer-by, simon of Cyrene, who was coming in
@@ -40,7 +40,7 @@ function FifthStation() {
 
         <View style={styles.mainContentView}>
           <View style={styles.mainContentCenterContainer}>
-            <Text style={styles.defaultText}>CHRIST SPEAKS</Text>
+            <Text style={styles.defaultTextHead}>CHRIST SPEAKS</Text>
           </View>
           <Text style={styles.defaultText}>
             I am physically weak I can no longer bear the cross alone, so, they
@@ -52,7 +52,7 @@ function FifthStation() {
 
         <View style={styles.mainContentView}>
           <View style={styles.mainContentCenterContainer}>
-            <Text style={styles.defaultText}>MAN RESPONDS</Text>
+            <Text style={styles.defaultTextHead}>MAN RESPONDS</Text>
           </View>
           <Text style={styles.defaultText}>
             Lord, make me realise that each time I pick up an object off the
@@ -69,7 +69,7 @@ function FifthStation() {
 
         <View style={styles.mainContentView}>
           <View style={styles.mainContentCenterContainer}>
-            <Text style={styles.defaultText}>HYMN</Text>
+            <Text style={styles.defaultTextHead}>HYMN</Text>
           </View>
           <View style={styles.mainContentCenterContainer}>
             <Text style={styles.defaultText}>Can the human heart refrain</Text>

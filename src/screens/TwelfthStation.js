@@ -32,7 +32,7 @@ function TwelfthStation() {
 
         <View style={styles.mainContentView}>
           <View style={styles.mainContentCenterContainer}>
-            <Text style={styles.defaultText}>READING: (JOHN 19:28-30)</Text>
+            <Text style={styles.defaultTextHead}>READING: (JOHN 19:28-30)</Text>
           </View>
           <Text style={styles.defaultText}>
             That the scriptures might be fulfilled Jesus said: I thirst. A bowl
@@ -45,7 +45,7 @@ function TwelfthStation() {
 
         <View style={styles.mainContentView}>
           <View style={styles.mainContentCenterContainer}>
-            <Text style={styles.defaultText}>CHRIST SPEAKS</Text>
+            <Text style={styles.defaultTextHead}>CHRIST SPEAKS</Text>
           </View>
           <Text style={styles.defaultText}>
             Now, the cross has become a pulpit listen to the good news I
@@ -56,7 +56,7 @@ function TwelfthStation() {
         </View>
         <View style={styles.mainContentView}>
           <View style={styles.mainContentCenterContainer}>
-            <Text style={styles.defaultText}>MAN RESPONDS</Text>
+            <Text style={styles.defaultTextHead}>MAN RESPONDS</Text>
           </View>
           <Text style={styles.defaultText}>
             Lord Jesus, what can I say or do? I offer you my death. I accept now
@@ -74,7 +74,7 @@ function TwelfthStation() {
 
         <View style={styles.mainContentView}>
           <View style={styles.mainContentCenterContainer}>
-            <Text style={styles.defaultText}>HYMN</Text>
+            <Text style={styles.defaultTextHead}>HYMN</Text>
           </View>
 
           <View style={styles.mainContentCenterContainer}>

@@ -29,7 +29,7 @@ function SecondStation() {
 
         <View style={styles.mainContentView}>
           <View style={styles.mainContentCenterContainer}>
-            <Text style={styles.defaultText}>READING: (JOHN 19:17)</Text>
+            <Text style={styles.defaultTextHead}>READING: (JOHN 19:17)</Text>
           </View>
           <Text style={styles.defaultText}>
             So they took Jesus, and he went out, bearing his own cross, to the
@@ -39,7 +39,7 @@ function SecondStation() {
 
         <View style={styles.mainContentView}>
           <View style={styles.mainContentCenterContainer}>
-            <Text style={styles.defaultText}>CHRIST SPEAKS</Text>
+            <Text style={styles.defaultTextHead}>CHRIST SPEAKS</Text>
           </View>
           <Text style={styles.defaultText}>
             This cross this chunk of tree, is what my father chose for me. the
@@ -51,7 +51,7 @@ function SecondStation() {
 
         <View style={styles.mainContentView}>
           <View style={styles.mainContentCenterContainer}>
-            <Text style={styles.defaultText}>MAN RESPONDS</Text>
+            <Text style={styles.defaultTextHead}>MAN RESPONDS</Text>
           </View>
           <Text style={styles.defaultText}>
             Lord Jesus, I take my daily cross I welcome the monotony, discomfort
@@ -68,7 +68,7 @@ function SecondStation() {
 
         <View style={styles.mainContentView}>
           <View style={styles.mainContentCenterContainer}>
-            <Text style={styles.defaultText}>HYMN</Text>
+            <Text style={styles.defaultTextHead}>HYMN</Text>
           </View>
           <View style={styles.mainContentCenterContainer}>
             <Text style={styles.defaultText}>

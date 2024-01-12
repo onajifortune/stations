@@ -99,9 +99,14 @@ const styles = StyleSheet.create({
   },
   h2: {
     fontSize: 20,
+    fontWeight: "500",
   },
   defaultText: {
     fontSize: 16,
+  },
+  defaultTextHead: {
+    fontSize: 16,
+    fontWeight: 'bold',
   },
   introduction: {
     justifyContent: "center",

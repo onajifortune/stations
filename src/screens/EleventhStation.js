@@ -29,7 +29,7 @@ function EleventhStation() {
 
         <View style={styles.mainContentView}>
           <View style={styles.mainContentCenterContainer}>
-            <Text style={styles.defaultText}>READING: (JOHN 19:18-19)</Text>
+            <Text style={styles.defaultTextHead}>READING: (JOHN 19:18-19)</Text>
           </View>
           <Text style={styles.defaultText}>
             “There they crucified him, and with him two others, one on either
@@ -40,7 +40,7 @@ function EleventhStation() {
 
         <View style={styles.mainContentView}>
           <View style={styles.mainContentCenterContainer}>
-            <Text style={styles.defaultText}>CHRIST SPEAKS</Text>
+            <Text style={styles.defaultTextHead}>CHRIST SPEAKS</Text>
           </View>
           <Text style={styles.defaultText}>
             My executioners pressed the nail into my hand until it stabbed my
@@ -52,7 +52,7 @@ function EleventhStation() {
 
         <View style={styles.mainContentView}>
           <View style={styles.mainContentCenterContainer}>
-            <Text style={styles.defaultText}>MAN RESPONDS</Text>
+            <Text style={styles.defaultTextHead}>MAN RESPONDS</Text>
           </View>
           <Text style={styles.defaultText}>
             My God am I worth all this? What can I give you in return? Here and
@@ -69,7 +69,7 @@ function EleventhStation() {
 
         <View style={styles.mainContentView}>
           <View style={styles.mainContentCenterContainer}>
-            <Text style={styles.defaultText}>HYMN</Text>
+            <Text style={styles.defaultTextHead}>HYMN</Text>
           </View>
 
           <View style={styles.mainContentCenterContainer}>

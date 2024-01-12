@@ -29,7 +29,7 @@ function ThirteenthStation() {
 
         <View style={styles.mainContentView}>
           <View style={styles.mainContentCenterContainer}>
-            <Text style={styles.defaultText}>READING: (JOHN 19:38-39)</Text>
+            <Text style={styles.defaultTextHead}>READING: (JOHN 19:38-39)</Text>
           </View>
           <Text style={styles.defaultText}>
             After this joseph of Arimathea who was a disciple of Jesus, but
@@ -43,7 +43,7 @@ function ThirteenthStation() {
 
         <View style={styles.mainContentView}>
           <View style={styles.mainContentCenterContainer}>
-            <Text style={styles.defaultText}>CHRIST SPEAKS</Text>
+            <Text style={styles.defaultTextHead}>CHRIST SPEAKS</Text>
           </View>
           <Text style={styles.defaultText}>
             The sacrifices is done. Yes, my mass is complete. But not my
@@ -55,7 +55,7 @@ function ThirteenthStation() {
 
         <View style={styles.mainContentView}>
           <View style={styles.mainContentCenterContainer}>
-            <Text style={styles.defaultText}>MAN RESPONDS</Text>
+            <Text style={styles.defaultTextHead}>MAN RESPONDS</Text>
           </View>
           <Text style={styles.defaultText}>
             Lord, help me to accept the partings that must come from friends who
@@ -72,7 +72,7 @@ function ThirteenthStation() {
 
         <View style={styles.mainContentView}>
           <View style={styles.mainContentCenterContainer}>
-            <Text style={styles.defaultText}>HYMN</Text>
+            <Text style={styles.defaultTextHead}>HYMN</Text>
           </View>
           <View style={styles.mainContentCenterContainer}>
             <Text style={styles.defaultText}>

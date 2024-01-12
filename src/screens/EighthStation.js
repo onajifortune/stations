@@ -29,7 +29,7 @@ function EighthStation() {
 
         <View style={styles.mainContentView}>
           <View style={styles.mainContentCenterContainer}>
-            <Text style={styles.defaultText}>READING: (LUKE 23:27-31)</Text>
+            <Text style={styles.defaultTextHead}>READING: (LUKE 23:27-31)</Text>
           </View>
           <Text style={styles.defaultText}>
             And there followed him a great multitude of people, and of women who
@@ -45,7 +45,7 @@ function EighthStation() {
 
         <View style={styles.mainContentView}>
           <View style={styles.mainContentCenterContainer}>
-            <Text style={styles.defaultText}>CHRIST SPEAKS</Text>
+            <Text style={styles.defaultTextHead}>CHRIST SPEAKS</Text>
           </View>
           <Text style={styles.defaultText}>
             How often have I longed to gather my children. into one communion
@@ -57,7 +57,7 @@ function EighthStation() {
 
         <View style={styles.mainContentView}>
           <View style={styles.mainContentCenterContainer}>
-            <Text style={styles.defaultText}>MAN RESPONDS</Text>
+            <Text style={styles.defaultTextHead}>MAN RESPONDS</Text>
           </View>
           <Text style={styles.defaultText}>
             Lord, teach me, help me to learn, when I would snap at those who
@@ -73,7 +73,7 @@ function EighthStation() {
 
         <View style={styles.mainContentView}>
           <View style={styles.mainContentCenterContainer}>
-            <Text style={styles.defaultText}>HYMN</Text>
+            <Text style={styles.defaultTextHead}>HYMN</Text>
           </View>
           <View style={styles.mainContentCenterContainer}>
             <Text style={styles.defaultText}>

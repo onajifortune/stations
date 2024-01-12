@@ -29,7 +29,7 @@ function ThirdStation() {
 
         <View style={styles.mainContentView}>
           <View style={styles.mainContentCenterContainer}>
-            <Text style={styles.defaultText}>READING: (ISAIAH 50:5-7)</Text>
+            <Text style={styles.defaultTextHead}>READING: (ISAIAH 50:5-7)</Text>
           </View>
           <Text style={styles.defaultText}>
             The Lord God has opened my ear, and I was not rebellious, I turned
@@ -42,7 +42,7 @@ function ThirdStation() {
 
         <View style={styles.mainContentView}>
           <View style={styles.mainContentCenterContainer}>
-            <Text style={styles.defaultText}>CHRIST SPEAKS</Text>
+            <Text style={styles.defaultTextHead}>CHRIST SPEAKS</Text>
           </View>
           <Text style={styles.defaultText}>
             The God who made the universe and holds it in existence the God who
@@ -55,7 +55,7 @@ function ThirdStation() {
 
         <View style={styles.mainContentView}>
           <View style={styles.mainContentCenterContainer}>
-            <Text style={styles.defaultText}>MAN RESPONDS</Text>
+            <Text style={styles.defaultTextHead}>MAN RESPONDS</Text>
           </View>
           <Text style={styles.defaultText}>
             Lord Jesus, how can I refuse? I willingly accept my weakness
@@ -73,7 +73,7 @@ function ThirdStation() {
 
         <View style={styles.mainContentView}>
           <View style={styles.mainContentCenterContainer}>
-            <Text style={styles.defaultText}>HYMN</Text>
+            <Text style={styles.defaultTextHead}>HYMN</Text>
           </View>
           <View style={styles.mainContentCenterContainer}>
             <Text style={styles.defaultText}>

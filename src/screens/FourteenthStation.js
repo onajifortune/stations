@@ -29,7 +29,7 @@ function FourteenthStation() {
 
         <View style={styles.mainContentView}>
           <View style={styles.mainContentCenterContainer}>
-            <Text style={styles.defaultText}>READING: (JOHN 19:40-42)</Text>
+            <Text style={styles.defaultTextHead}>READING: (JOHN 19:40-42)</Text>
           </View>
           <Text style={styles.defaultText}>
             They took the Body of Jesus, and bound it in lines clothes with the
@@ -42,7 +42,7 @@ function FourteenthStation() {
 
         <View style={styles.mainContentView}>
           <View style={styles.mainContentCenterContainer}>
-            <Text style={styles.defaultText}>CHRIST SPEAKS</Text>
+            <Text style={styles.defaultTextHead}>CHRIST SPEAKS</Text>
           </View>
           <Text style={styles.defaultText}>
             So ends my mortal life but now another life begins for Mary and for
@@ -54,7 +54,7 @@ function FourteenthStation() {
 
         <View style={styles.mainContentView}>
           <View style={styles.mainContentCenterContainer}>
-            <Text style={styles.defaultText}>MAN RESPONDS</Text>
+            <Text style={styles.defaultTextHead}>MAN RESPONDS</Text>
           </View>
           <Text style={styles.defaultText}>
             Lord Jesus, it is hard to be your apostle the demands are great. You
@@ -73,7 +73,7 @@ function FourteenthStation() {
 
         <View style={styles.mainContentView}>
           <View style={styles.mainContentCenterContainer}>
-            <Text style={styles.defaultText}>HYMN</Text>
+            <Text style={styles.defaultTextHead}>HYMN</Text>
           </View>
           <View style={styles.mainContentCenterContainer}>
             <Text style={styles.defaultText}>while my body here decays;</Text>
