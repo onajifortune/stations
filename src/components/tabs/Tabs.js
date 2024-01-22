@@ -1,6 +1,10 @@
-import { StyleSheet, Text, View } from "react-native";
-import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import Header from "../Header";
+import { StyleSheet, Text, View, Button, Image } from "react-native";
+// import { createNativeStackNavigator, cardStyleInterpolators } from "@react-navigation/native-stack";
+import {
+  createStackNavigator,
+  CardStyleInterpolators,
+} from "@react-navigation/stack";
+import Ionicons from "@expo/vector-icons/Ionicons";
 import Introduction from "../../screens/Introduction";
 import Conclusion from "../../screens/Conclusion";
 import EighthStation from "../../screens/EighthStation";
@@ -18,13 +22,28 @@ import ThirdStation from "../../screens/ThirdStation";
 import ThirteenthStation from "../../screens/ThirtheenthStation";
 import TwelfthStation from "../../screens/TwelfthStation";
 import Home from "../../screens/Home";
+import CustomHeader from "../header/CustomHeader";
 
-const Stack = createNativeStackNavigator();
+// const Stack = createNativeStackNavigator();
+const Stack = createStackNavigator();
 
 function Tabs() {
   return (
-    <Stack.Navigator>
-      <Stack.Screen name="Stations of the Cross" component={Home} />
+    <Stack.Navigator
+      initialRouteName="Stations of the Cross"
+      screenOptions={{
+        headerRight: (props) => <CustomHeader {...props} />,
+        transitionSpec: {
+          open: { animation: "timing", config: { duration: 0 } },
+          close: { animation: "timing", config: { duration: 0 } },
+        },
+      }}
+    >
+      <Stack.Screen
+        name="Stations of the Cross"
+        options={{ headerRight: null }}
+        component={Home}
+      />
       <Stack.Screen name="Introduction" component={Introduction} />
       <Stack.Screen name="Conclusion" component={Conclusion} />
       <Stack.Screen name="First Station" component={FirstStation} />
