@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "stations",
-    "slug": "stations",
+    "slug": "stations-test",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -29,9 +29,9 @@
     },
     "extra": {
       "eas": {
-        "projectId": "46080c73-2dc3-43a3-ac41-f7f7705bacb5"
+        "projectId": "a8929e92-fdfd-468f-90c3-159a39876d5f"
       }
     },
-    "owner": "onajifortune"
+    "owner": "weedkenutrof"
   }
 }
