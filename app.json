@@ -29,7 +29,7 @@
     },
     "extra": {
       "eas": {
-        "projectId": "a897cbca-b47f-402e-ba61-29d1e1997a42"
+        "projectId": "46080c73-2dc3-43a3-ac41-f7f7705bacb5"
       }
     },
     "runtimeVersion": {
@@ -37,6 +37,7 @@
     },
     "updates": {
       "url": "https://u.expo.dev/a897cbca-b47f-402e-ba61-29d1e1997a42"
-    }
+    },
+    "owner": "onajifortune"
   }
 }
