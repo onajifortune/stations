@@ -12,22 +12,22 @@ import styles from "../../mainStyles";
 
 function Home({ navigation }) {
   data = [
-    { id: "In", title: "Introduction" },
-    { id: "I", title: "First Station" },
-    { id: "II", title: "Second Station" },
-    { id: "III", title: "Third Station" },
-    { id: "IV", title: "Fourth Station" },
-    { id: "V", title: "Fifth Station" },
-    { id: "VI", title: "Sixth Station" },
-    { id: "VII", title: "Seventh Station" },
-    { id: "VIII", title: "Eighth Station" },
-    { id: "IX", title: "Nineth Station" },
-    { id: "X", title: "Tenth Station" },
-    { id: "XI", title: "Eleventh Station" },
-    { id: "XII", title: "Twelfth Station" },
-    { id: "XIII", title: "Thirteenth Station" },
-    { id: "XIV", title: "Fourteenth Station" },
-    { id: "Co", title: "Conclusion" },
+    { id: "Introduction", title: "Introduction" },
+    { id: "First Station", title: "First Station" },
+    { id: "Second Station", title: "Second Station" },
+    { id: "Third Station", title: "Third Station" },
+    { id: "Fourth Station", title: "Fourth Station" },
+    { id: "Fifth Station", title: "Fifth Station" },
+    { id: "Sixth Station", title: "Sixth Station" },
+    { id: "Seventh Station", title: "Seventh Station" },
+    { id: "Eighth Station", title: "Eighth Station" },
+    { id: "Nineth Station", title: "Nineth Station" },
+    { id: "Tenth Station", title: "Tenth Station" },
+    { id: "Eleventh Station", title: "Eleventh Station" },
+    { id: "Twelfth Station", title: "Twelfth Station" },
+    { id: "Thirteenth Station", title: "Thirteenth Station" },
+    { id: "Fourteenth Station", title: "Fourteenth Station" },
+    { id: "Conclusion", title: "Conclusion" },
   ];
 
   return (
@@ -48,7 +48,7 @@ function Home({ navigation }) {
             </TouchableOpacity>
           )}
           keyExtractor={(item, index) => index}
-          numColumns={5}
+          numColumns={2}
           contentContainerStyle={{ paddingHorizontal: 20 }}
         />
       </View>
@@ -60,7 +60,7 @@ export default Home;
 
 const styless = StyleSheet.create({
   home: {
-    marginTop: 50,
+    marginTop: 16,
   },
   item: {
     borderWidth: 1,
@@ -70,7 +70,7 @@ const styless = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     height: 50,
-    width: 52,
+    width: "47%",
   },
   itemText: {
     textAlign: "center", // Center the text within the item
