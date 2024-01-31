@@ -1,8 +1,9 @@
-import { Text, View, Image } from "react-native";
+import { Text, View, Image, Animated } from "react-native";
 import {
   PanGestureHandler,
   ScrollView,
   State,
+  GestureHandlerRootView,
 } from "react-native-gesture-handler";
 import styles from "../../mainStyles";
 
@@ -14,7 +15,7 @@ function ThirdStation({ navigation }) {
       Math.abs(event.nativeEvent.velocityX) >
         Math.abs(event.nativeEvent.velocityY)
     ) {
-      // Navigate to Screen2 only if the gesture ends and has a positive velocity (rightward)
+      // Navigate to Screen1 only if the gesture ends and has a positive velocity (rightward)
       navigation.navigate("Fourth Station");
     } else if (
       event.nativeEvent.state === State.END &&
@@ -22,95 +23,102 @@ function ThirdStation({ navigation }) {
       Math.abs(event.nativeEvent.velocityX) >
         Math.abs(event.nativeEvent.velocityY)
     ) {
-      // Navigate to Screen2 only if the gesture ends and has a positive velocity (rightward)
+      // Navigate to Screen2 only if the gesture ends and has a negative velocity (leftward)
       navigation.navigate("Second Station");
     }
   };
   return (
-    <PanGestureHandler onHandlerStateChange={onSlideComplete}>
-      <ScrollView>
-        <View style={styles.mainContent}>
-          <View style={styles.mainContentCenterContainer}>
-            <Text style={styles.h2}>JESUS FALLS THE FIRST TIME</Text>
-            <Image
-              source={require("../img/small/station-cross3.jpg")}
-              style={styles.mainContentImg}
-            />
-          </View>
+    <Animated.View>
+      <GestureHandlerRootView>
+        <PanGestureHandler onHandlerStateChange={onSlideComplete}>
+          <ScrollView>
+            <View style={styles.mainContent}>
+              <View style={styles.mainContentCenterContainer}>
+                <Text style={styles.h2}>JESUS FALLS THE FIRST TIME</Text>
+                <Image
+                  source={require("../img/small/station-cross3.jpg")}
+                  style={styles.mainContentImg}
+                />
+              </View>
 
-          <Text style={styles.defaultText}>
-            V. We adore you, O Christ, and we praise you.
-          </Text>
-          <Text style={styles.defaultText}>
-            R. Because by your holy cross you Have redeemed the world.
-          </Text>
-
-          <View style={styles.mainContentView}>
-            <View style={styles.mainContentCenterContainer}>
-              <Text style={styles.defaultTextHead}>
-                READING: (ISAIAH 50:5-7)
-              </Text>
-            </View>
-            <Text style={styles.defaultText}>
-              The Lord God has opened my ear, and I was not rebellious, I turned
-              not backward. I gabe my back to the smiters, and my cheeks to
-              those who pulled out the beard; I did not hide my face from shame
-              and spitting. For the Lord God helps me; therefore I have not been
-              confounded.
-            </Text>
-          </View>
-
-          <View style={styles.mainContentView}>
-            <View style={styles.mainContentCenterContainer}>
-              <Text style={styles.defaultTextHead}>CHRIST SPEAKS</Text>
-            </View>
-            <Text style={styles.defaultText}>
-              The God who made the universe and holds it in existence the God
-              who directs the movement of the cosmos, this God is, as man, too
-              weak to bear a piece of timber. That is the will of my father I
-              could not be your model otherwise. If you would be my follower you
-              also must accept without complaint your human limitations.
-            </Text>
-          </View>
-
-          <View style={styles.mainContentView}>
-            <View style={styles.mainContentCenterContainer}>
-              <Text style={styles.defaultTextHead}>MAN RESPONDS</Text>
-            </View>
-            <Text style={styles.defaultText}>
-              Lord Jesus, how can I refuse? I willingly accept my weakness
-              irritation and my moods, my headaches and fatigues, my
-              difficulties in work and home all my defects of body, mind and
-              soul. These “handicaps” of my humanity are your will for me I
-              accept them gladly after your fall, you picked yourself up now
-              pick me up, Lord.
-            </Text>
-          </View>
-
-          <View style={styles.mainContentView}>
-            <Text style={styles.defaultText}>
-              V: Grant us your help, O Lord!
-            </Text>
-            <Text style={styles.defaultText}>R: Grant us your help!</Text>
-          </View>
-
-          <View style={styles.mainContentView}>
-            <View style={styles.mainContentCenterContainer}>
-              <Text style={styles.defaultTextHead}>HYMN</Text>
-            </View>
-            <View style={styles.mainContentCenterContainer}>
               <Text style={styles.defaultText}>
-                Christ above in torments hangs;
+                V. We adore you, O Christ, and we praise you.
               </Text>
               <Text style={styles.defaultText}>
-                she – beneath beholds the pangs
+                R. Because by your holy cross you Have redeemed the world.
               </Text>
-              <Text style={styles.defaultText}>of her dying glorious son.</Text>
+
+              <View style={styles.mainContentView}>
+                <View style={styles.mainContentCenterContainer}>
+                  <Text style={styles.defaultTextHead}>
+                    READING: (ISAIAH 50:5-7)
+                  </Text>
+                </View>
+                <Text style={styles.defaultText}>
+                  The Lord God has opened my ear, and I was not rebellious, I
+                  turned not backward. I gabe my back to the smiters, and my
+                  cheeks to those who pulled out the beard; I did not hide my
+                  face from shame and spitting. For the Lord God helps me;
+                  therefore I have not been confounded.
+                </Text>
+              </View>
+
+              <View style={styles.mainContentView}>
+                <View style={styles.mainContentCenterContainer}>
+                  <Text style={styles.defaultTextHead}>CHRIST SPEAKS</Text>
+                </View>
+                <Text style={styles.defaultText}>
+                  The God who made the universe and holds it in existence the
+                  God who directs the movement of the cosmos, this God is, as
+                  man, too weak to bear a piece of timber. That is the will of
+                  my father I could not be your model otherwise. If you would be
+                  my follower you also must accept without complaint your human
+                  limitations.
+                </Text>
+              </View>
+
+              <View style={styles.mainContentView}>
+                <View style={styles.mainContentCenterContainer}>
+                  <Text style={styles.defaultTextHead}>MAN RESPONDS</Text>
+                </View>
+                <Text style={styles.defaultText}>
+                  Lord Jesus, how can I refuse? I willingly accept my weakness
+                  irritation and my moods, my headaches and fatigues, my
+                  difficulties in work and home all my defects of body, mind and
+                  soul. These “handicaps” of my humanity are your will for me I
+                  accept them gladly after your fall, you picked yourself up now
+                  pick me up, Lord.
+                </Text>
+              </View>
+
+              <View style={styles.mainContentView}>
+                <Text style={styles.defaultText}>
+                  V: Grant us your help, O Lord!
+                </Text>
+                <Text style={styles.defaultText}>R: Grant us your help!</Text>
+              </View>
+
+              <View style={styles.mainContentView}>
+                <View style={styles.mainContentCenterContainer}>
+                  <Text style={styles.defaultTextHead}>HYMN</Text>
+                </View>
+                <View style={styles.mainContentCenterContainer}>
+                  <Text style={styles.defaultText}>
+                    Christ above in torments hangs;
+                  </Text>
+                  <Text style={styles.defaultText}>
+                    she – beneath beholds the pangs
+                  </Text>
+                  <Text style={styles.defaultText}>
+                    of her dying glorious son.
+                  </Text>
+                </View>
+              </View>
             </View>
-          </View>
-        </View>
-      </ScrollView>
-    </PanGestureHandler>
+          </ScrollView>
+        </PanGestureHandler>
+      </GestureHandlerRootView>
+    </Animated.View>
   );
 }
 

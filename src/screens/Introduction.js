@@ -3,6 +3,7 @@ import {
   PanGestureHandler,
   ScrollView,
   State,
+  GestureHandlerRootView,
 } from "react-native-gesture-handler";
 import styles from "../../mainStyles";
 
@@ -14,7 +15,7 @@ function Base({ navigation }) {
       Math.abs(event.nativeEvent.velocityX) >
         Math.abs(event.nativeEvent.velocityY)
     ) {
-      // Navigate to Screen2 only if the gesture ends and has a positive velocity (rightward)
+      // Navigate to Screen1 only if the gesture ends and has a positive velocity (rightward)
       navigation.navigate("First Station");
     } else if (
       event.nativeEvent.state === State.END &&
@@ -22,7 +23,7 @@ function Base({ navigation }) {
       Math.abs(event.nativeEvent.velocityX) >
         Math.abs(event.nativeEvent.velocityY)
     ) {
-      // Navigate to Screen2 only if the gesture ends and has a positive velocity (rightward)
+      // Navigate to Screen2 only if the gesture ends and has a negative velocity (leftward)
       navigation.navigate("Stations of the Cross");
     }
   };

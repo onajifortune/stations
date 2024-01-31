@@ -5,8 +5,6 @@ import {
   View,
   FlatList,
   TouchableOpacity,
-  Image,
-  Button,
 } from "react-native";
 import styles from "../../mainStyles";
 
