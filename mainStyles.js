@@ -106,11 +106,12 @@ const styles = StyleSheet.create({
   },
   defaultTextHead: {
     fontSize: 16,
-    fontWeight: 'bold',
+    fontWeight: "bold",
   },
   introduction: {
     justifyContent: "center",
     alignItems: "center",
+    height: "100%",
   },
 });
 

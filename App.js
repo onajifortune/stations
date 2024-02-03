@@ -7,15 +7,15 @@ import Header from "./src/components/Header";
 export default function App() {
   return (
     <>
-    <StatusBar
-      translucent={true}
-      backgroundColor="transparent"
-      barStyle="dark-content"
-    />
-    <NavigationContainer>
-      {/* <Header /> */}
-      <Tabs />
-    </NavigationContainer>
+      <StatusBar
+        translucent={true}
+        backgroundColor="transparent"
+        barStyle="dark-content"
+      />
+      <NavigationContainer>
+        {/* <Header /> */}
+        <Tabs />
+      </NavigationContainer>
     </>
   );
 }
