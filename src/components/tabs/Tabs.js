@@ -23,7 +23,7 @@ const Stack = createNativeStackNavigator();
 
 function Tabs() {
   return (
-    <Stack.Navigator>
+    <Stack.Navigator screenOptions={{ animation: "none" }}>
       <Stack.Screen name="Stations of the Cross" component={Home} />
       <Stack.Screen name="Introduction" component={Introduction} />
       <Stack.Screen name="Conclusion" component={Conclusion} />
